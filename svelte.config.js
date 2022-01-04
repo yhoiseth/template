@@ -4,7 +4,7 @@ import FullReload from 'vite-plugin-full-reload'
 
 /** @type {import('@sveltejs/kit').Config} */
 
-export const config = {
+export default config = {
 	extensions: ['.svelte', ".md"],
 	preprocess: evidencePreprocess(),
 	kit: {
